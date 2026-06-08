@@ -5,7 +5,7 @@ import notificationIcon from "../assets/icons/notification.svg";
 
 const Navbar = () => {
   return (
-    <section className="fixed top-0 left-0 right-0 z-50  bg-transparent transition-all duration-300 flex items-center px-8 py-7.5  h-[70px] bg-black/50 backdrop-blur-sm">
+    <section className="fixed top-0 left-0 right-0 z-50  bg-transparent transition-all duration-300 flex items-center py-7.5  h-[70px] bg-black/50 backdrop-blur-sm">
       <div className="container flex justify-between items-center">
         <div id="logo">
           <img src={logo} className="cursor-pointer" alt="" />
