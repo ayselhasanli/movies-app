@@ -20,7 +20,7 @@ const Brands = () => {
           {brands.map((brand) => (
             <div
               key={brand.id}
-              className="shrink-0 w-36 h-16 bg-[#1a1a1a] border border-gray-700 rounded-lg flex items-center justify-center cursor-pointer hover:border-gray-500 transition-colors px-4"
+              className="shrink-0 w-36 h-16 flex items-center justify-center cursor-pointer px-4"
             >
               <img
                 src={brand.image}

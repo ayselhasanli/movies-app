@@ -4,14 +4,17 @@ import arrow from "../assets/icons/right-arrow.svg"
 
 const Hero = () => {
   return (
-    <section class="relative min-h-screen flex flex-col items-center justify-end pb-16">
-      <img src={heroImg} class="absolute inset-0 w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-      <div class="relative z-10 items-center text-center">
-        <h1 class="text-[58px] font-bold text-white">
+    <section className="relative min-h-screen flex flex-col items-center justify-end pb-16">
+      <img
+        src={heroImg}
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+      <div className="relative z-10 items-center text-center">
+        <h1 className="text-[58px] font-bold text-white">
           The Best Streaming Experience
         </h1>
-        <p class="text-gray-300 mt-3 max-w-5xl m-auto text-[18px]">
+        <p className="text-gray-300 mt-3 max-w-5xl m-auto text-[18px]">
           StreamVibe is the best streaming experience for watching your favorite
           movies and shows on demand, anytime, anywhere. With StreamVibe, you
           can enjoy a wide variety of content, including the latest
@@ -19,7 +22,7 @@ const Hero = () => {
           create your own watchlists, so you can easily find the content you
           want to watch.
         </p>
-        <button class="mt-12 flex gap-1 mx-auto bg-red-600 cursor-pointer text-white px-6 py-4 rounded-lg">
+        <button className="mt-12 flex gap-1 mx-auto bg-red-600 cursor-pointer text-white px-6 py-4 rounded-lg">
           <img src={arrow} alt="" /> <span>Start Watching Now</span>
         </button>
       </div>
