@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import Categories from '../components/Categories'
 import Brands from '../components/Brands'
 import PopularWeek from '../components/PopularWeek'
+import Devices from '../components/Devices'
+import FAQ from '../components/FAQ'
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Categories/>
       <Brands/>
       <PopularWeek/>
+      <Devices/>
+      <FAQ/>
     </>
   )
 }

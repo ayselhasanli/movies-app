@@ -1,4 +1,3 @@
-// BrandsSection.jsx
 import { useRef } from "react";
 import { brands } from "../lib/brands";
 
@@ -10,7 +9,7 @@ const Brands = () => {
   };
 
   return (
-    <section className="bg-[#0f0f0f] py-3 ">
+    <section className="bg-[#0f0f0f] py-12 ">
       <div className="flex items-center gap-3 container">
         <div
           ref={scrollRef}
